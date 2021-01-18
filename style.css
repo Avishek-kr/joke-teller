@@ -66,57 +66,21 @@ button:disabled {
   font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    background-position: center center;
-    background-size: auto;
-  }
-  button {
-    position: absolute;
-    left: 110px;
-    font-size: 23px;
-    top: 130px;
-    box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.1);
-    height: 50px;
-    width: 220px;
-  }
+@media screen and (max-width: 1000px){
+    .container {
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    button {
+      box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+    }
+
   #text {
     font-size: 20px;
     width: 90%;
     text-align: center;
     top: 500px;
-  }
-  h3 {
-    top: 0;
-    color: black;
-    background-color: white;
-    padding: 0 36px;
-    border-radius: 5px;
-    left: -40px;
-    font-size: 20px;
-    transform: rotate(-25deg);
-  }
-}
-
-@media screen and (max-width: 800px){
-  .container {
-    background-position: center center;
-    background-size: auto;
-  }
-  button {
-    position: absolute;
-    left: 105px;
-    font-size: 23px;
-    top: 150px;
-    box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.1);
-    height: 40px;
-    width: 210px;
-  }
-  #text {
-    font-size: 20px;
-    width: 90%;
-    text-align: center;
-    top: 650px;
   }
   h3 {
     top: 0;
