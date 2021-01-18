@@ -84,7 +84,7 @@ button:disabled {
     font-size: 20px;
     width: 90%;
     text-align: center;
-    top: 670px;
+    top: 400px;
   }
   h3 {
     top: 0;
@@ -105,18 +105,18 @@ button:disabled {
   }
   button {
     position: absolute;
-    left: 280px;
+    left: 150px;
     font-size: 23px;
-    top: 130px;
+    top: 87px;
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.1);
-    height: 50px;
-    width: 220px;
+    height: 40px;
+    width: 210px;
   }
   #text {
     font-size: 20px;
     width: 90%;
     text-align: center;
-    top: 670px;
+    top: 500px;
   }
   h3 {
     top: 0;
